@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lilita+One&display=swap");
+:root {
+  font-family: "Lilita One", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  /* font-family: "Lobster", cursive; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --colors__black1: rgb(31, 19, 0);
+  --colors__white1: rgb(223, 212, 188);
+  --colors__white2: rgb(224, 237, 228);
+  --colors__pink1: rgb(154, 120, 113);
+  --colors__pink2: rgb(152, 90, 83);
+  /* --colors__pink2: rgb(110, 55, 51);
+  --colors__pink2: rgb(118, 60, 58); */
+  --colors__blue1: rgb(20, 70, 160);
+
+  color: var(--colors__black1);
+
+  background-color: var(--colors__white1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100svh;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
