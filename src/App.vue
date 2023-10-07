@@ -23,7 +23,7 @@ import Gallery from "./components/Gallery.vue";
 const btnOne = ref(true);
 const btnTwo = ref(false);
 const victoryMessage =
-  "Horray! I'm so blessed and grateful to be spending this time with you topgether";
+  "Horray! I'm so blessed and grateful to be sharing this part of my life with you!";
 
 function yesOrNo(boolean) {
   return boolean === true ? "Yes" : "No";
